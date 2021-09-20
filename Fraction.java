@@ -1,8 +1,8 @@
 
 /**
- * Write a description of class Fraction here.
+ * This code should bring back a fraction.
  *
- * @author (Alejandro Kincaid)
+ * @author (Alejandro Kincaid and Bennett Proffitt)
  * @version (1.0)
  */
 public class Fraction
@@ -27,10 +27,6 @@ public class Fraction
     public int getNumerator()
     {
         return numerator;
-    }
-    public double resultDouble()
-    {
-        return (double) numerator/denominator; 
     }
     public Fraction add(Fraction f)
     {
