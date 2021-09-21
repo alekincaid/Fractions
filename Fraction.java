@@ -1,6 +1,6 @@
 
 /**
- * This code should bring back a fraction.
+ * This code should bring back a fraction and allow people to add and subtract them.
  *
  * @author (Alejandro Kincaid and Bennett Proffitt)
  * @version (1.0)
@@ -14,11 +14,17 @@ public class Fraction
     /**
      * Constructor for objects of class Fraction
      */
+    
     public Fraction(int numer, int denom)
     {
         // initialise instance variables
         numerator = numer;
         denominator = denom;
+    }
+    public Fraction()
+    {
+        numerator = 0;
+        denominator = 1;
     }
     public int getDenominator() 
     { 
