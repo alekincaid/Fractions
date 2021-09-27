@@ -14,7 +14,12 @@ public class Fraction
     /**
      * Constructor for objects of class Fraction
      */
-    
+    public static void main (String[] args)
+    {
+        Fraction oneThird = new Fraction(1,3);
+        Fraction oneHalf = new Fraction (1,2);
+        Fraction oneFourth = new Fraction(1,4);
+    }
     public Fraction(int numer, int denom)
     {
         // initialise instance variables
@@ -61,13 +66,9 @@ public class Fraction
     }
     public String toString()
     {
-        if (denominator==1)
-        { return (String) String.valueOf(numerator);
-        }
-        else
-        {
+        
             return(String) String.valueOf(numerator) + "/" + String.valueOf(denominator);
-        }
+        
     }
 
 }
