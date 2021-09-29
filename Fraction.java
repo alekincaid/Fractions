@@ -14,12 +14,6 @@ public class Fraction
     /**
      * Constructor for objects of class Fraction
      */
-    public static void main (String[] args)
-    {
-        Fraction oneThird = new Fraction(1,3);
-        Fraction oneHalf = new Fraction (1,2);
-        Fraction oneFourth = new Fraction(1,4);
-    }
     public Fraction(int numer, int denom)
     {
         // initialise instance variables
